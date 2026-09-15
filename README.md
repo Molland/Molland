@@ -1,8 +1,6 @@
 <!-- ============================================================
      GitHub Profile README — Шмат Алексей / Инженер-программист
-     Как использовать: создать репозиторий с именем вашего GitHub-логина
-     (например, alexei-shmat/alexei-shmat), положить этот файл как README.md.
-     Замените YOUR_USERNAME в блоке статистики ниже на свой логин.
+     Профиль GitHub: Molland
      ============================================================ -->
 
 <div align="center">
@@ -110,14 +108,12 @@
 
 | # | Проект | Тип | Стек |
 |---|--------|-----|------|
-| 1 | **Dawn** | Сетевое многопользовательское приложение (кооператив на 4 клиента) | Unity 6, C#, Mirror, URP |
-| 2 | **Веб-приложение** | Full-stack: SPA + backend API | React, Vite, Node.js/Express, Firebase, Supabase, PostgreSQL |
-| 3 | **Java + БД** | Настольное приложение и клиент-сервер: работа с БД, чат | Java, JDBC, MySQL, DAO, Sockets, Swing, Maven |
-| 4 | **Node.js веб-сервер** | Сервер с загрузкой файлов, контейнеризация | Node.js, Express, Multer, Docker |
-| 5 | **Мини-игра (Python)** | Игра с OpenGL-рендерингом | Python, pygame, PyOpenGL |
-| 6 | **Memory** | Игра с сохранением прогресса, сборка под Android | Unity 6, C#, UGUI, PlayerPrefs |
-| 7 | **DoodleNoir** | 2D-проект: процедурный спавн, счёт | Unity, C#, 2D |
-| 8 | **3D Platformer** | 3D-проект: сбор объектов, камеры, меню | Unity, C#, URP |
+| 1 | [**Dawn**](https://github.com/Molland/Dawn) | Сетевое многопользовательское приложение (кооператив на 4 клиента) | Unity 6, C#, Mirror, URP |
+| 2 | [**Веб-приложение**](https://github.com/Molland/web-app) | Full-stack: SPA + backend API | React, Vite, Node.js/Express, Firebase, Supabase, PostgreSQL |
+| 3 | [**Java + БД**](https://github.com/Molland/java-db-app) | Настольное приложение и клиент-сервер: работа с БД, чат | Java, JDBC, MySQL, DAO, Sockets, Swing, Maven |
+| 4 | [**Node.js веб-сервер**](https://github.com/Molland/node-web-server) | Сервер с загрузкой файлов, контейнеризация | Node.js, Express, Multer, Docker |
+| 5 | [**Memory**](https://github.com/Molland/Memory) | Игра с сохранением прогресса, сборка под Android | Unity 6, C#, UGUI, PlayerPrefs |
+| 6 | [**DoodleNoir**](https://github.com/Molland/DoodleNoir) | 2D-проект: процедурный спавн, счёт | Unity, C#, 2D |
 
 ### Ключевые проекты
 
@@ -126,13 +122,6 @@
 **Веб-приложение** — full-stack SPA на **React + Vite** с backend на **Express**, интеграцией **Firebase** и **Supabase** и работой с **PostgreSQL**; маршрутизация, клиентский роутинг, авторизация.
 
 **Java + БД** — приложение на **Java** с доступом к базе через **JDBC** (паттерн **DAO**), плюс клиент-серверный чат на **сокетах** с интерфейсом на **Swing**; сборка через **Maven**.
-
-## Образование
-
-**Полоцкий государственный университет имени Евфросинии Полоцкой**
-Факультет информационных технологий · 4 курс
-Специальность «Информационные системы и технологии»
-Профилизация «Информационные системы и технологии в игровой индустрии»
 
 ## Контакты
 
@@ -144,7 +133,6 @@
 
 <div align="center">
 
-<!-- GitHub: Molland -->
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=Molland&show_icons=true&title_color=C1121F&icon_color=C1121F&text_color=6b6b6b&border_color=C1121F&bg_color=ffffff&hide_border=false&count_private=true" alt="GitHub Stats"/>
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Molland&layout=compact&title_color=C1121F&text_color=6b6b6b&border_color=C1121F&bg_color=ffffff&langs_count=8" alt="Top Languages"/>
 

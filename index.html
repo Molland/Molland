@@ -111,6 +111,8 @@
     font-family:"Space Grotesk",sans-serif;font-weight:600;
     font-size:16.5px;margin:0 0 4px;letter-spacing:.005em;
   }
+  .proj h3 a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line-strong);}
+  .proj h3 a:hover{color:var(--accent);border-color:var(--accent);}
   .proj .what{font-size:14px;color:#3a352f;margin:0 0 9px;}
   .chips{display:flex;flex-wrap:wrap;gap:6px;}
   .chip{
@@ -125,13 +127,6 @@
     font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
     color:#fff;background:var(--accent);border-radius:3px;
     padding:1px 7px;margin-left:8px;vertical-align:middle;
-  }
-
-  .edu h3{font-family:"Space Grotesk",sans-serif;font-size:16px;font-weight:600;margin:0 0 3px;}
-  .edu .sub{color:var(--muted);font-size:14px;margin:0;}
-  .edu .meta{
-    font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--accent-deep);
-    letter-spacing:.05em;margin-top:8px;
   }
 
   footer{
@@ -184,7 +179,7 @@
   <main>
     <section>
       <div class="sec-head"><span class="sec-no">01</span><h2>Профиль</h2></div>
-      <p class="lede">Инженер-программист с опытом разработки приложений полного цикла: backend и API, веб-интерфейсы (SPA), базы данных, настольные и клиент-серверные приложения. Студент 4 курса факультета информационных технологий Полоцкого государственного университета, специальность «Информационные системы и технологии», профилизация «Информационные системы и технологии в игровой индустрии».</p>
+      <p class="lede">Инженер-программист с опытом разработки приложений полного цикла: backend и API, веб-интерфейсы (SPA), базы данных, настольные и клиент-серверные приложения.</p>
       <p class="lede">Основной язык — <b>C# / .NET</b>; также работаю с <b>C++</b>, <b>Python</b> и <b>Java</b>; на фронтенде — <b>React</b>, <b>Angular</b> и <b>Vue</b> на <b>TypeScript</b>. Проектирую приложения (ООП, SOLID, UML), пишу и оптимизирую SQL, контейнеризирую и разворачиваю проекты (<b>Docker</b>, хостинг). Отдельное направление — разработка игр на <b>Unity</b> и работа с 3D в <b>Blender</b>.</p>
     </section>
 
@@ -226,7 +221,7 @@
       <article class="proj">
         <div class="proj-no">01</div>
         <div>
-          <h3>Dawn — сетевое многопользовательское приложение<span class="flag">курсовой проект</span></h3>
+          <h3><a href="https://github.com/Molland/Dawn">Dawn</a> — сетевое многопользовательское приложение</h3>
           <p class="what">Кооперативное приложение на 4 клиента с архитектурой «игрок-хост». Реализовал серверную авторитетность и синхронизацию состояния в реальном времени, ИИ-агентов, систему игровых данных, интерфейс; отладка и нагрузочное тестирование через Network Profiler.</p>
           <div class="chips"><span class="chip">Unity 6</span><span class="chip">C#</span><span class="chip">Mirror</span><span class="chip">Client-Server</span><span class="chip">URP</span></div>
         </div>
@@ -235,7 +230,7 @@
       <article class="proj">
         <div class="proj-no">02</div>
         <div>
-          <h3>Веб-приложение — full-stack SPA</h3>
+          <h3><a href="https://github.com/Molland/web-app">Веб-приложение</a> — full-stack SPA</h3>
           <p class="what">Одностраничное приложение с backend-API: клиентский роутинг, интеграция аутентификации и базы данных, работа с внешними сервисами. Сборка через Vite.</p>
           <div class="chips"><span class="chip">React</span><span class="chip">Vite</span><span class="chip">Node.js / Express</span><span class="chip">Firebase</span><span class="chip">Supabase</span><span class="chip">PostgreSQL</span></div>
         </div>
@@ -244,7 +239,7 @@
       <article class="proj">
         <div class="proj-no">03</div>
         <div>
-          <h3>Java — приложение с БД и клиент-серверный чат</h3>
+          <h3><a href="https://github.com/Molland/java-db-app">Java + БД</a> — приложение и клиент-серверный чат</h3>
           <p class="what">Доступ к базе данных через <code>JDBC</code> по паттерну <b>DAO</b> (CRUD над товарами), а также многоклиентский чат на <b>сокетах</b> с интерфейсом на <b>Swing</b>; сборка через Maven.</p>
           <div class="chips"><span class="chip">Java</span><span class="chip">JDBC</span><span class="chip">MySQL</span><span class="chip">DAO</span><span class="chip">Sockets</span><span class="chip">Swing</span><span class="chip">Maven</span></div>
         </div>
@@ -253,7 +248,7 @@
       <article class="proj">
         <div class="proj-no">04</div>
         <div>
-          <h3>Node.js веб-сервер с контейнеризацией</h3>
+          <h3><a href="https://github.com/Molland/node-web-server">Node.js веб-сервер</a> — с контейнеризацией</h3>
           <p class="what">HTTP-сервер с загрузкой файлов на Express, упакованный в Docker-образ по Dockerfile; работа с маршрутизацией и статикой.</p>
           <div class="chips"><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">Multer</span><span class="chip">Docker</span></div>
         </div>
@@ -262,48 +257,20 @@
       <article class="proj">
         <div class="proj-no">05</div>
         <div>
-          <h3>Мини-игра на Python</h3>
-          <p class="what">Игровой цикл с рендерингом через OpenGL: обработка ввода, физика движения, случайная генерация, работа со временем кадра.</p>
-          <div class="chips"><span class="chip">Python</span><span class="chip">pygame</span><span class="chip">PyOpenGL</span></div>
-        </div>
-      </article>
-
-      <article class="proj">
-        <div class="proj-no">06</div>
-        <div>
-          <h3>Memory — приложение с сохранением прогресса</h3>
+          <h3><a href="https://github.com/Molland/Memory">Memory</a> — приложение с сохранением прогресса</h3>
           <p class="what">Игра на память с 12 уровнями и ростом сложности. Сохранение прогресса через PlayerPrefs, карта уровней, меню, звук; собрана под Android (AAB).</p>
           <div class="chips"><span class="chip">Unity 6</span><span class="chip">C#</span><span class="chip">UGUI</span><span class="chip">PlayerPrefs</span><span class="chip">Android</span></div>
         </div>
       </article>
 
       <article class="proj">
-        <div class="proj-no">07</div>
+        <div class="proj-no">06</div>
         <div>
-          <h3>DoodleNoir — 2D-проект</h3>
+          <h3><a href="https://github.com/Molland/DoodleNoir">DoodleNoir</a> — 2D-проект</h3>
           <p class="what">Динамичная 2D-игра: процедурный спавн платформ, движение персонажа, система счёта, меню и камера с сопровождением.</p>
           <div class="chips"><span class="chip">Unity</span><span class="chip">C#</span><span class="chip">2D</span><span class="chip">SpriteShape</span></div>
         </div>
       </article>
-
-      <article class="proj">
-        <div class="proj-no">08</div>
-        <div>
-          <h3>3D Platformer — 3D-проект</h3>
-          <p class="what">Управление от третьего лица, сбор объектов, переключение камер, меню и настройки (разрешение, громкость), звуковое сопровождение.</p>
-          <div class="chips"><span class="chip">Unity</span><span class="chip">C#</span><span class="chip">URP</span></div>
-        </div>
-      </article>
-    </section>
-
-    <section>
-      <div class="sec-head"><span class="sec-no">04</span><h2>Образование</h2></div>
-      <div class="edu">
-        <h3>Полоцкий государственный университет имени Евфросинии Полоцкой</h3>
-        <p class="sub">Факультет информационных технологий · 4 курс</p>
-        <p class="sub">Специальность «Информационные системы и технологии». Профилизация «Информационные системы и технологии в игровой индустрии».</p>
-        <div class="meta">КУРСОВЫЕ: СЕТЕВОЕ МНОГОПОЛЬЗОВАТЕЛЬСКОЕ ПРИЛОЖЕНИЕ (UNITY + MIRROR) · ИНФОРМАЦИОННАЯ СИСТЕМА (C++ / STL)</div>
-      </div>
     </section>
   </main>
 
