@@ -144,8 +144,8 @@
 
 <div align="center">
 
-<!-- Замените YOUR_USERNAME на ваш GitHub-логин -->
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&title_color=C1121F&icon_color=C1121F&text_color=6b6b6b&border_color=C1121F&bg_color=ffffff&hide_border=false&count_private=true" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&title_color=C1121F&text_color=6b6b6b&border_color=C1121F&bg_color=ffffff&langs_count=8" alt="Top Languages"/>
+<!-- GitHub: Molland -->
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Molland&show_icons=true&title_color=C1121F&icon_color=C1121F&text_color=6b6b6b&border_color=C1121F&bg_color=ffffff&hide_border=false&count_private=true" alt="GitHub Stats"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Molland&layout=compact&title_color=C1121F&text_color=6b6b6b&border_color=C1121F&bg_color=ffffff&langs_count=8" alt="Top Languages"/>
 
 </div>
