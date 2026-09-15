@@ -1,21 +1,11 @@
-<!-- ============================================================
-     GitHub Profile README — Шмат Алексей / Инженер-программист
-     Профиль GitHub: Molland
-     ============================================================ -->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=C1121F&height=180&section=header&text=Alexei%20Shmat&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20C%23%20%2F%20.NET&descAlignY=60&descSize=18" alt="banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=C1121F&height=180&section=header&text=Шмат%20Алексей&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20C%23%20%2F%20.NET&descAlignY=60&descSize=18" alt="banner"/>
 
 <br/>
 
-# Шмат Алексей Дмитриевич
-
-`Инженер-программист` &nbsp;&middot;&nbsp; `Software Engineer` &nbsp;&middot;&nbsp; `Full-Stack · C# / .NET`
-
-Студент 4 курса факультета информационных технологий
-Специальность **«Информационные системы и технологии»**
-Профилизация **«Информационные системы и технологии в игровой индустрии»**
+Студент 4 курса ПГУ. Факультет информационных технологий.
+Специальность «Информационные системы и технологии».
 
 <br/>
 
@@ -114,26 +104,3 @@
 | 4 | [**Node.js веб-сервер**](https://github.com/Molland/node-web-server) | Сервер с загрузкой файлов, контейнеризация | Node.js, Express, Multer, Docker |
 | 5 | [**Memory**](https://github.com/Molland/Memory) | Игра с сохранением прогресса, сборка под Android | Unity 6, C#, UGUI, PlayerPrefs |
 | 6 | [**DoodleNoir**](https://github.com/Molland/DoodleNoir) | 2D-проект: процедурный спавн, счёт | Unity, C#, 2D |
-
-### Ключевые проекты
-
-**Dawn** — сетевое приложение с архитектурой **«игрок-хост»** на Mirror: серверная авторитетность (`[Command]`, `[ClientRpc]`, `SyncVar`), синхронизация состояния в реальном времени, load-тестирование через Network Profiler.
-
-**Веб-приложение** — full-stack SPA на **React + Vite** с backend на **Express**, интеграцией **Firebase** и **Supabase** и работой с **PostgreSQL**; маршрутизация, клиентский роутинг, авторизация.
-
-**Java + БД** — приложение на **Java** с доступом к базе через **JDBC** (паттерн **DAO**), плюс клиент-серверный чат на **сокетах** с интерфейсом на **Swing**; сборка через **Maven**.
-
-## Контакты
-
-- **Email:** a.d.shmat@students.psu.by
-- **Телефон:** +375 44 536-68-05
-- **Телефон:** +375 25 775-62-97
-
----
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Molland&show_icons=true&title_color=C1121F&icon_color=C1121F&text_color=6b6b6b&border_color=C1121F&bg_color=ffffff&hide_border=false&count_private=true" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Molland&layout=compact&title_color=C1121F&text_color=6b6b6b&border_color=C1121F&bg_color=ffffff&langs_count=8" alt="Top Languages"/>
-
-</div>
