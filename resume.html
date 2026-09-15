@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Шмат Алексей Дмитриевич — Инженер-программист</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#faf9f7;
+    --ink:#16130f;
+    --muted:#5f5b55;
+    --line:#e4e1dc;
+    --line-strong:#cfcac3;
+    --accent:#c1121f;
+    --accent-deep:#8e0d17;
+    --accent-soft:#fbe9ea;
+    --maxw:920px;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:#efece8;
+    color:var(--ink);
+    font-family:"Manrope",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    font-size:15.5px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .sheet{
+    max-width:var(--maxw);
+    margin:36px auto;
+    background:var(--paper);
+    border:1px solid var(--line-strong);
+    padding:0 0 8px;
+  }
+  .top-rule{height:6px;background:var(--accent);}
+  .masthead{padding:40px 54px 26px;}
+  .eyebrow{
+    font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;
+    font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--accent);font-weight:600;
+  }
+  h1{
+    font-family:"Space Grotesk","Segoe UI",Arial,sans-serif;
+    font-weight:700;
+    font-size:clamp(30px,5vw,46px);
+    line-height:1.04;
+    letter-spacing:-.025em;
+    margin:14px 0 10px;
+  }
+  .role{
+    font-family:"Space Grotesk",sans-serif;
+    font-weight:500;
+    font-size:17px;
+    letter-spacing:.01em;
+    color:var(--muted);
+    margin:0;
+  }
+  .role b{color:var(--ink);font-weight:600;}
+  .contact-row{
+    display:flex;flex-wrap:wrap;gap:8px 26px;
+    margin-top:22px;padding-top:18px;border-top:1px solid var(--line);
+    font-size:13.5px;color:var(--muted);
+  }
+  .contact-row a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-strong);}
+  .contact-row a:hover{color:var(--accent);border-color:var(--accent);}
+  .ci{display:inline-flex;align-items:center;gap:7px;}
+  .ci svg{flex:0 0 auto;stroke:var(--accent);}
+
+  main{padding:6px 54px 40px;}
+  section{padding:26px 0 4px;border-top:1px solid var(--line);}
+  section:first-of-type{border-top:1px solid var(--line-strong);}
+  .sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:16px;}
+  .sec-no{
+    font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:600;
+    color:var(--accent);letter-spacing:.08em;
+  }
+  h2{
+    font-family:"Space Grotesk",sans-serif;font-weight:600;
+    font-size:19px;letter-spacing:.02em;text-transform:uppercase;
+    margin:0;color:var(--ink);
+  }
+  .sec-head::after{content:"";flex:1;height:1px;background:var(--line);}
+
+  p{margin:0 0 12px;}
+  .lede{font-size:15.5px;color:#2b2723;}
+
+  .skills{display:grid;grid-template-columns:210px 1fr;gap:11px 22px;}
+  .skills dt{
+    font-family:"JetBrains Mono",monospace;font-size:11.5px;font-weight:600;
+    letter-spacing:.06em;text-transform:uppercase;color:var(--accent-deep);
+    padding-top:2px;
+  }
+  .skills dd{margin:0;color:#3a352f;font-size:14.5px;}
+  .skills dd .sep{color:var(--line-strong);padding:0 7px;}
+
+  .proj{
+    display:grid;grid-template-columns:34px 1fr;gap:0 14px;
+    padding:15px 0;border-top:1px dashed var(--line);
+  }
+  .proj:first-of-type{border-top:0;padding-top:4px;}
+  .proj-no{
+    font-family:"JetBrains Mono",monospace;font-size:13px;font-weight:600;
+    color:var(--accent);padding-top:2px;
+  }
+  .proj h3{
+    font-family:"Space Grotesk",sans-serif;font-weight:600;
+    font-size:16.5px;margin:0 0 4px;letter-spacing:.005em;
+  }
+  .proj .what{font-size:14px;color:#3a352f;margin:0 0 9px;}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;}
+  .chip{
+    font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:500;
+    letter-spacing:.02em;
+    color:var(--accent-deep);background:var(--accent-soft);
+    border:1px solid #f0cdcf;border-radius:3px;
+    padding:2px 8px;white-space:nowrap;
+  }
+  .flag{
+    display:inline-block;font-family:"JetBrains Mono",monospace;
+    font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+    color:#fff;background:var(--accent);border-radius:3px;
+    padding:1px 7px;margin-left:8px;vertical-align:middle;
+  }
+
+  .edu h3{font-family:"Space Grotesk",sans-serif;font-size:16px;font-weight:600;margin:0 0 3px;}
+  .edu .sub{color:var(--muted);font-size:14px;margin:0;}
+  .edu .meta{
+    font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--accent-deep);
+    letter-spacing:.05em;margin-top:8px;
+  }
+
+  footer{
+    margin-top:22px;padding:16px 54px 6px;border-top:2px solid var(--ink);
+    font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;
+  }
+  footer b{color:var(--accent);}
+
+  @media (max-width:640px){
+    .masthead,main{padding-left:24px;padding-right:24px;}
+    .skills{grid-template-columns:1fr;gap:4px 0;}
+    .skills dt{padding-top:10px;}
+    footer{padding-left:24px;padding-right:24px;}
+  }
+  @media print{
+    body{background:#fff;font-size:12.5px;}
+    .sheet{margin:0;border:0;max-width:100%;}
+    .top-rule{height:4px;}
+    section{break-inside:avoid;}
+    footer{border-top:1px solid #000;}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="top-rule"></div>
+
+  <header class="masthead">
+    <div class="eyebrow">Инженер-программист · Software Engineer · Full-Stack · C# / .NET</div>
+    <h1>Шмат Алексей<br>Дмитриевич</h1>
+    <p class="role">Разработка полного цикла · <b>C# / .NET · Java · Python · React · SQL · Docker</b></p>
+
+    <div class="contact-row">
+      <span class="ci">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        <a href="mailto:a.d.shmat@students.psu.by">a.d.shmat@students.psu.by</a>
+      </span>
+      <span class="ci">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+        <a href="tel:+375445366805">+375 44 536-68-05</a>
+      </span>
+      <span class="ci">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+        <a href="tel:+375257756297">+375 25 775-62-97</a>
+      </span>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="sec-head"><span class="sec-no">01</span><h2>Профиль</h2></div>
+      <p class="lede">Инженер-программист с опытом разработки приложений полного цикла: backend и API, веб-интерфейсы (SPA), базы данных, настольные и клиент-серверные приложения. Студент 4 курса факультета информационных технологий Полоцкого государственного университета, специальность «Информационные системы и технологии», профилизация «Информационные системы и технологии в игровой индустрии».</p>
+      <p class="lede">Основной язык — <b>C# / .NET</b>; также работаю с <b>C++</b>, <b>Python</b> и <b>Java</b>; на фронтенде — <b>React</b>, <b>Angular</b> и <b>Vue</b> на <b>TypeScript</b>. Проектирую приложения (ООП, SOLID, UML), пишу и оптимизирую SQL, контейнеризирую и разворачиваю проекты (<b>Docker</b>, хостинг). Отдельное направление — разработка игр на <b>Unity</b> и работа с 3D в <b>Blender</b>.</p>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-no">02</span><h2>Стек и технологии</h2></div>
+      <dl class="skills">
+        <dt>Языки</dt>
+        <dd>C#<span class="sep">·</span>C++<span class="sep">·</span>Python<span class="sep">·</span>Java<span class="sep">·</span>TypeScript<span class="sep">·</span>JavaScript<span class="sep">·</span>SQL<span class="sep">·</span>HTML<span class="sep">·</span>CSS</dd>
+
+        <dt>Backend / API</dt>
+        <dd>.NET<span class="sep">·</span>Dapper<span class="sep">·</span>REST API<span class="sep">·</span>Node.js<span class="sep">·</span>Express<span class="sep">·</span>JDBC / DAO<span class="sep">·</span>Java Servlets<span class="sep">·</span>Firebase<span class="sep">·</span>Supabase<span class="sep">·</span>Maven</dd>
+
+        <dt>Базы данных</dt>
+        <dd>PostgreSQL<span class="sep">·</span>MySQL<span class="sep">·</span>MS SQL</dd>
+
+        <dt>Frontend</dt>
+        <dd>React<span class="sep">·</span>Angular<span class="sep">·</span>Vue<span class="sep">·</span>TypeScript<span class="sep">·</span>JavaScript<span class="sep">·</span>Vite<span class="sep">·</span>RxJS<span class="sep">·</span>HTML<span class="sep">·</span>CSS</dd>
+
+        <dt>GameDev / 3D</dt>
+        <dd>Unity<span class="sep">·</span>C#<span class="sep">·</span>Blender<span class="sep">·</span>Mirror (сети)</dd>
+
+        <dt>Инфраструктура</dt>
+        <dd>Docker<span class="sep">·</span>Gradle<span class="sep">·</span>npm<span class="sep">·</span>Git / GitHub<span class="sep">·</span>хостинг и деплой</dd>
+
+        <dt>ИИ</dt>
+        <dd>Работа с ИИ: интеграция моделей и использование ИИ-инструментов в разработке</dd>
+
+        <dt>Инженерия</dt>
+        <dd>ООП<span class="sep">·</span>SOLID<span class="sep">·</span>паттерны (в т. ч. DAO)<span class="sep">·</span>UML / PlantUML<span class="sep">·</span>рефакторинг<span class="sep">·</span>отладка<span class="sep">·</span>тестирование (JUnit, Karma / Jasmine)</dd>
+
+        <dt>Инструменты</dt>
+        <dd>Visual Studio<span class="sep">·</span>Rider<span class="sep">·</span>VS Code</dd>
+      </dl>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-no">03</span><h2>Проекты</h2></div>
+
+      <article class="proj">
+        <div class="proj-no">01</div>
+        <div>
+          <h3>Dawn — сетевое многопользовательское приложение<span class="flag">курсовой проект</span></h3>
+          <p class="what">Кооперативное приложение на 4 клиента с архитектурой «игрок-хост». Реализовал серверную авторитетность и синхронизацию состояния в реальном времени, ИИ-агентов, систему игровых данных, интерфейс; отладка и нагрузочное тестирование через Network Profiler.</p>
+          <div class="chips"><span class="chip">Unity 6</span><span class="chip">C#</span><span class="chip">Mirror</span><span class="chip">Client-Server</span><span class="chip">URP</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-no">02</div>
+        <div>
+          <h3>Веб-приложение — full-stack SPA</h3>
+          <p class="what">Одностраничное приложение с backend-API: клиентский роутинг, интеграция аутентификации и базы данных, работа с внешними сервисами. Сборка через Vite.</p>
+          <div class="chips"><span class="chip">React</span><span class="chip">Vite</span><span class="chip">Node.js / Express</span><span class="chip">Firebase</span><span class="chip">Supabase</span><span class="chip">PostgreSQL</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-no">03</div>
+        <div>
+          <h3>Java — приложение с БД и клиент-серверный чат</h3>
+          <p class="what">Доступ к базе данных через <code>JDBC</code> по паттерну <b>DAO</b> (CRUD над товарами), а также многоклиентский чат на <b>сокетах</b> с интерфейсом на <b>Swing</b>; сборка через Maven.</p>
+          <div class="chips"><span class="chip">Java</span><span class="chip">JDBC</span><span class="chip">MySQL</span><span class="chip">DAO</span><span class="chip">Sockets</span><span class="chip">Swing</span><span class="chip">Maven</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-no">04</div>
+        <div>
+          <h3>Node.js веб-сервер с контейнеризацией</h3>
+          <p class="what">HTTP-сервер с загрузкой файлов на Express, упакованный в Docker-образ по Dockerfile; работа с маршрутизацией и статикой.</p>
+          <div class="chips"><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">Multer</span><span class="chip">Docker</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-no">05</div>
+        <div>
+          <h3>Мини-игра на Python</h3>
+          <p class="what">Игровой цикл с рендерингом через OpenGL: обработка ввода, физика движения, случайная генерация, работа со временем кадра.</p>
+          <div class="chips"><span class="chip">Python</span><span class="chip">pygame</span><span class="chip">PyOpenGL</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-no">06</div>
+        <div>
+          <h3>Memory — приложение с сохранением прогресса</h3>
+          <p class="what">Игра на память с 12 уровнями и ростом сложности. Сохранение прогресса через PlayerPrefs, карта уровней, меню, звук; собрана под Android (AAB).</p>
+          <div class="chips"><span class="chip">Unity 6</span><span class="chip">C#</span><span class="chip">UGUI</span><span class="chip">PlayerPrefs</span><span class="chip">Android</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-no">07</div>
+        <div>
+          <h3>DoodleNoir — 2D-проект</h3>
+          <p class="what">Динамичная 2D-игра: процедурный спавн платформ, движение персонажа, система счёта, меню и камера с сопровождением.</p>
+          <div class="chips"><span class="chip">Unity</span><span class="chip">C#</span><span class="chip">2D</span><span class="chip">SpriteShape</span></div>
+        </div>
+      </article>
+
+      <article class="proj">
+        <div class="proj-no">08</div>
+        <div>
+          <h3>3D Platformer — 3D-проект</h3>
+          <p class="what">Управление от третьего лица, сбор объектов, переключение камер, меню и настройки (разрешение, громкость), звуковое сопровождение.</p>
+          <div class="chips"><span class="chip">Unity</span><span class="chip">C#</span><span class="chip">URP</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <div class="sec-head"><span class="sec-no">04</span><h2>Образование</h2></div>
+      <div class="edu">
+        <h3>Полоцкий государственный университет имени Евфросинии Полоцкой</h3>
+        <p class="sub">Факультет информационных технологий · 4 курс</p>
+        <p class="sub">Специальность «Информационные системы и технологии». Профилизация «Информационные системы и технологии в игровой индустрии».</p>
+        <div class="meta">КУРСОВЫЕ: СЕТЕВОЕ МНОГОПОЛЬЗОВАТЕЛЬСКОЕ ПРИЛОЖЕНИЕ (UNITY + MIRROR) · ИНФОРМАЦИОННАЯ СИСТЕМА (C++ / STL)</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>ШМАТ АЛЕКСЕЙ ДМИТРИЕВИЧ · ИНЖЕНЕР-ПРОГРАММИСТ</span>
+    <span><b>a.d.shmat@students.psu.by</b> · +375 44 536-68-05</span>
+  </footer>
+</div>
+</body>
+</html>
